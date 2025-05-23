@@ -1,0 +1,14 @@
+{
+  "name": "figma-mp4-extractor",
+  "version": "1.0.0",
+  "description": "Actor para extraer videos MP4 desde archivos Figma en modo Dev.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.3.8"
+  },
+  "author": "Roda998",
+  "license": "MIT"
+}
