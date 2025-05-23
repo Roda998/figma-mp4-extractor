@@ -1,0 +1,13 @@
+{
+  "actorSpecification": 1,
+  "name": "figma-mp4-extractor",
+  "title": "Extractor de video MP4 desde Figma",
+  "description": "Navega un archivo Figma, entra en modo Dev y extrae el link del video desde el panel de Assets.",
+  "version": "0.1",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "dockerfile": "./Dockerfile",
+  "main": "main.js",
+  "buildTag": "latest"
+}
