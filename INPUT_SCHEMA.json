@@ -1,4 +1,5 @@
 {
+  "schemaVersion": 1,
   "title": "Extractor MP4 desde Figma",
   "type": "object",
   "properties": {
@@ -25,3 +26,4 @@
   },
   "required": ["fileKey", "nodeId", "cookie"]
 }
+
