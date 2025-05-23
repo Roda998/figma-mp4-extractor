@@ -1,0 +1,27 @@
+{
+  "title": "Extractor MP4 desde Figma",
+  "type": "object",
+  "properties": {
+    "fileKey": {
+      "type": "string",
+      "title": "File key de Figma",
+      "description": "El ID del archivo Figma"
+    },
+    "nodeId": {
+      "type": "string",
+      "title": "Node ID",
+      "description": "El ID exacto del nodo que contiene el video"
+    },
+    "campo": {
+      "type": "string",
+      "title": "Nombre del frame (campo)",
+      "default": "Video"
+    },
+    "cookie": {
+      "type": "string",
+      "title": "Cookie de autenticación",
+      "description": "Valor de __Host-figma.authn copiado desde DevTools"
+    }
+  },
+  "required": ["fileKey", "nodeId", "cookie"]
+}
